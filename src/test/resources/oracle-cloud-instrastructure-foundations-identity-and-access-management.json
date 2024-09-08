@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Which statement about OCI compartments is NOT true?",
+    "answers": [
+      {
+        "answer": "It is a best practice to create all your resources in the root compartment.",
+        "correct": true
+      },
+      {
+        "answer": "A compartment is a logical collection of related resources.",
+        "correct": false
+      },
+      {
+        "answer": "Compartments help to isolate and control access to resources.",
+        "correct": false
+      },
+      {
+        "answer": "Compartments can be nested.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": " Which Identity and Access Management component helps to organize multiple users into a team?",
+    "answers": [
+      {
+        "answer": "Policies",
+        "correct": true
+      },
+      {
+        "answer": "Compartments",
+        "correct": false
+      },
+      {
+        "answer": "Dynamic Groups",
+        "correct": false
+      },
+      {
+        "answer": "Groups",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "title": "Which statement about OCI Identity and Access Management is true?",
+    "answers": [
+      {
+        "answer": "It is used to protect information on devices.",
+        "correct": false
+      },
+      {
+        "answer": "It enables you to control access for a group of users.",
+        "correct": true
+      },
+      {
+        "answer": "It enables authentication for devices only",
+        "correct": false
+      },
+      {
+        "answer": "It enables authorization for on-premises users only",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Which is NOT a component of OCI Identity and Access Management?",
+    "answers": [
+      {
+        "answer": "Network Security Group",
+        "correct": true
+      },
+      {
+        "answer": "Federation",
+        "correct": false
+      },
+      {
+        "answer": "Policies",
+        "correct": false
+      },
+      {
+        "answer": "Principals",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "How is a resource in OCI identified?",
+    "answers": [
+      {
+        "answer": "With Tenancy ID",
+        "correct": false
+      },
+      {
+        "answer": "With Username",
+        "correct": false
+      },
+      {
+        "answer": "With Compartment Name",
+        "correct": false
+      },
+      {
+        "answer": "With OCID",
+        "correct": true
+      }
+    ]
+  }
+]
