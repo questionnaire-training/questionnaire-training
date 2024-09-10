@@ -1,7 +1,58 @@
 [versions]
 micronaut = "4.6.1"
+testcontainers = "1.20.1"
+ksuid="1.1.2"
+
 
 [libraries]
 micronaut-platform = { module = "io.micronaut.platform:micronaut-platform", version.ref = "micronaut" }
+micronaut-inject-java = { module = "io.micronaut:micronaut-inject-java" }
+
+# Micronaut Views
+micronaut-views-thymeleaf = { module = "io.micronaut.views:micronaut-views-thymeleaf" }
+micronaut-views-fieldset = { module = "io.micronaut.views:micronaut-views-fieldset" }
+
+# Micronaut OpenAPI
+micronaut-openapi = { module = "io.micronaut.openapi:micronaut-openapi" }
+micronaut-openapi-annotations = { module = "io.micronaut.openapi:micronaut-openapi-annotations" }
+
+# Micronaut HTTP Server
+micronaut-http-server = { module = "io.micronaut:micronaut-http-server" }
+micronaut-http-server-netty = { module = "io.micronaut:micronaut-http-server-netty" }
+
+# Micronaut HTTP Client
+micronaut-http-client = {module = "io.micronaut:micronaut-http-client" }
+
+# Micronaut Data
+micronaut-data-processor = {module = "io.micronaut.data:micronaut-data-processor" }
+# JDBC
+micronaut-data-jdbc = { module = "io.micronaut.data:micronaut-data-jdbc" }
+# Connection Pool
+micronaut-jdbc-hikari = { module = "io.micronaut.sql:micronaut-jdbc-hikari" }
+
+#Micronaut Serialization
+micronaut-serde-jackson = { module = "io.micronaut.serde:micronaut-serde-jackson" }
+micronaut-serde-processor = { module = "io.micronaut.serde:micronaut-serde-processor" }
+
+# Validation
+micronaut-validation = { module = "io.micronaut.validation:micronaut-validation" }
+micronaut-validation-processor = { module = "io.micronaut.validation:micronaut-validation-processor" }
+
+# Databse Migration
+micronaut-liquibase = { module = "io.micronaut.liquibase:micronaut-liquibase" }
+# Logging
+logback-classic = { module = "ch.qos.logback:logback-classic" }
+
+# Testcontainers
+testcontainers = { module = "org.testcontainers:testcontainers", version.ref = "testcontainers"  }
+
+# MySQL
+testcontainers-mysql = { module = "org.testcontainers:mysql", version.ref = "testcontainers" }
+mysql-connector-j = { module = "com.mysql:mysql-connector-j" }
+# JUnit 5
 micronaut-test-junit5 = { module = "io.micronaut.test:micronaut-test-junit5" }
+testcontainers-junit-jupiter = { module = "org.testcontainers:junit-jupiter", version.ref = "testcontainers"  }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine" }
+
+# KSUID
+ksuid = {module = "com.github.ksuid:ksuid", version.ref = "ksuid" }

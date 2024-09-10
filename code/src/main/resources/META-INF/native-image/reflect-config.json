@@ -1,0 +1,14 @@
+[
+  {
+    "name":"training.questionnaire.Question",
+    "queryAllDeclaredMethods":true,
+    "queryAllPublicMethods":true,
+    "methods":[{"name":"answers","parameterTypes":[] }, {"name":"id","parameterTypes":[] }, {"name":"name","parameterTypes":[] }]
+  },
+  {
+    "name":"training.questionnaire.Answer",
+    "queryAllDeclaredMethods":true,
+    "queryAllPublicMethods":true,
+    "methods":[{"name":"correct","parameterTypes":[] }, {"name":"id","parameterTypes":[] }, {"name":"name","parameterTypes":[] }, {"name":"explanation","parameterTypes":[] }]
+  }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="01" author="sdelamo">
+        <createTable tableName="topics">
+            <column name="id" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <createTable tableName="questions">
+            <column name="id" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <createTable tableName="answers">
+            <column name="id" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="explanation" type="text">
+                <constraints nullable="true"/>
+            </column>
+            <column name="correct" type="tinyint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="questions_id" type="varchar(255)">
+                <constraints foreignKeyName="fk_questions_id" nullable="false"/>
+            </column>
+        </createTable>
+        <createTable tableName="topics_questions">
+            <column name="id_topic_id" type="varchar(255)">
+                <constraints foreignKeyName="fk_topics_id" nullable="false" referencedTableName="topics"/>
+            </column>
+            <column name="id_question_id" type="varchar(255)">
+                <constraints foreignKeyName="fk_questions_id" nullable="false" referencedTableName="questions"/>
+            </column>
+        </createTable>
+        <addPrimaryKey tableName="topics_questions" columnNames="id_topic_id,id_question_id" constraintName="pk_topics_questions"/>
+        <rollback>
+            <dropTable tableName="answers"/>
+            <dropTable tableName="topics_questions"/>
+            <dropTable tableName="questions"/>
+            <dropTable tableName="topics"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
