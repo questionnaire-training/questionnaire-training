@@ -1,4 +1,4 @@
-ame: GraalVM NativeTest
+name: GraalVM NativeTest
 on: [push, pull_request]
 jobs:
   build:
