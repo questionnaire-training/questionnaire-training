@@ -16,4 +16,4 @@ jobs:
           java --version
           native-image --version
       - name: Native Tests
-        run: gradlew nativeTest
+        run: ./gradlew nativeTest
