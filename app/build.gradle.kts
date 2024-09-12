@@ -20,6 +20,14 @@ java {
 }
 graalvmNative {
     toolchainDetection.set(true)
+    binaries {
+        all {
+            buildArgs.add("--strict-image-heap")
+        }
+        named("main") {
+            imageName.set("qt")
+        }
+    }
 }
 micronaut {
     runtime("netty")
