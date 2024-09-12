@@ -7,8 +7,8 @@ import io.swagger.v3.oas.annotations.info.License;
 
 @OpenAPIDefinition(
         info = @Info(
-                title = "Questionnaire Training API",
-                version = "0.0",
+                title = "Questionnaire Training",
+                version = "1.0",
                 description = "Questionnaire Training  API",
                 license = @License(name = "Apache 2.0", url = "https://foo.bar"),
                 contact = @Contact(url = "https://sergiodelamo.com", name = "Sergio del Amo", email = "sergio.delamo@softamo.com")

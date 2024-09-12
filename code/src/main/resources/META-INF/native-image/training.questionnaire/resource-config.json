@@ -1,0 +1,11 @@
+{
+  "resources": [
+    {"pattern": ".*\\.css"},
+    {"pattern": ".*\\.js"},
+    {"pattern": ".*\\.png"},
+    {"pattern": ".*\\.properties"},
+    {"pattern": ".*\\.yml"},
+    {"pattern": ".*\\.html"},
+    {"pattern": ".*\\.xml"}
+  ]
+}
