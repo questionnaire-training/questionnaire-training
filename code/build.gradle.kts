@@ -96,4 +96,9 @@ java {
 }
 graalvmNative {
     toolchainDetection.set(true)
+    binaries {
+        all {
+            buildArgs.add("--strict-image-heap")
+        }
+    }
 }
