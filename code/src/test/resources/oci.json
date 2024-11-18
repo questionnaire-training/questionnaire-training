@@ -1,0 +1,570 @@
+**Which Oracle Cloud Infrastructure is designed to protect your web applications from various types of malicious attacks, such as SQL injection and cross-site scripting**
+
+- [x] Web Application Firewall (WAF)
+- [ ] Vault Service
+- [ ] Cloud Guard
+- [ ] Security Zones
+
+> Oracle Cloud infrastructure Web application Firewall (WAF) is designed to protect your web applications from various types of malicious attacks, such as SQL injection and cross- site scripting. WAF inspects incoming web traffic and filters out any requests that match predefined security rules, ensuring the security and availability of web applications.
+
+**In OCI Networking, what its he role of a Dynamic Routing Gateway DRG)?**
+- [x] To provide a path for traffic between a VCN and an on-premises network or another VCN
+- [ ] To provide. Path for traffic between a VCN and the public internet.
+- [ ] To enforce security rules on a group of cloud resources
+- [ ] To distribute incoming traffic to backend resources.
+
+> Correct. A Dynamic Routing Gateway (DRG) provides a path for traffic between a VCN and an on-premises network or another VCN in the same or different region.
+
+**In Oracle Cloud Infrastructure shared security responsibility sabiltiy model, who is responsible for securing customer’s data, application and access control?**
+- [x] The customer
+- [ ] Government agencies
+- [ ] Third-party vendors
+- [ ] Oracle
+
+> Correct. In the Oracle Cloud Infrastructure shared security responsibility model, the customer is responsible for securing their data, applications and access control. This includes implementing appropriate security measures such as encryption, user access control, and monitoring to protect sensitive data and secure the overall security of their cloud environment.
+
+**How does Oracle Cloud Infrastructure’s Bring Your Own License (BYOL) feature help customers save on costs?**
+- [ ] By offering free software licenses for certain OCI services.
+- [x] By allowing customers to use existing software licenses in OCI
+- [ ] By bundling software licenses with OCI services at a discounted rate.
+- [ ] By providing discounts on new software licenses purchased for OCI.
+
+> Correct. Oracle Cloud Infrastructure’s Bring Your Own License (BYOL) feature helps customers save on costs by allowing them to use their existing software licenses in OCI. This means customers can leverage their investment in Oracle software licenses when migrating or deploying new applications in OCI, without the need to purchase additional licenses.
+
+**Which of the following is NOT a component of an IAM policy statement in Oracle Cloud Infrastructure?**
+
+- [ ] Location
+- [ ] Resource type
+- [x] Encryption
+- [ ] Action Verb
+
+> Correct. An IAM policy statement in Oracle Cloud Infrastructure typically consists of these components: Location (compartment or tenancy), Action Verb (the specific action to be allowed), Resource (the resources the action can be performed on), Principal (group the policy applies to), and set of optional Conditions. Encryption is not a component of an IAM policy statement, it is a security measure used to protect sensitive data.
+
+**What is the primary purpose of setting up budgets in Oracle Cloud Infrastructure?**
+- [ ] To automatically pause OCI services when spending reaches a certain threshold.
+- [ ] To allocate resources across compartments
+- [x] To monitor and control spending on OCI services
+- [ ] To setup billing accounts for OCI customers.
+
+> Correct. The primary purpose of setting up budgets in Oracle Cloud Infrastructure is to monitor and control spacing on OCI services. Budgets allow customers to track their spending and receive alerts when their spending approaches or exceeds the budget limits they have set, enabling them to manage costs effectively.
+
+**Which of the following is NOT a type of OCI compute instance?**
+- [ ] Bare Metal
+- [ ] Virtual Machines (VMs)
+- [x] Nano Instances
+- [ ] Dedicated Virtual Machine Hosts
+
+> Correct. The Oracle Cloud Infrastructure Compute service offers Virtual Machines (VMs), Bare Meta instance, and Dedicated Virtual Machine Hosts. Nano instances is not a type of OCI Compute instance.
+
+**In Oracle Cloud Infrastructure, what is the main difference between a Load Balancer and a Network Load Balancer.
+- [x] A Load Balancer works at the application layer (layer 7), while a Network Load Balancer works at the transport layer (layer 4).
+- [ ] A Load Balancer works at the transport layer (layer 4), while a Network Load Balancer works a the application layer (layer 7).
+- [ ] A Load Balancer is used for private networks, while a Network Load Balancer is used for public networks.
+- [ ] A Load Balancer supports only IPv4 addresses, while a Network Load Balancer supports IPv4 and IPv6 addresses.
+
+> Correct. The main difference between a Load Balancer and a Network Load Balancer in Oracle Cloud Infrastructure is that a Load Balancer works at the application layer (layer 7) and can handle application-specific traffic, while a Network Load balancer works at the transport layer (layer 4) and can handle any type of TCP or UDP traffic.
+
+**How are compartment quotas applied in Oracle Cloud Infrastructure?**
+- [ ] Globally, across all compartments.
+- [ ] On a per-region basis
+- [ ] On a per-tenancy basis
+- [x] On a per compartment basis.
+
+> Correct. In Oracle Cloud Infrastructure, compartment quotas are applied on a per compartment basis. This allows administrators to set different resource limits for each compartment, ensuring that resource usage aligns with the organization’s policies and requirements.
+
+**Which is a key characteristic of an Oracle Cloud Infrastructure Block Volume?**
+- [ ] It is used to store and manage object data.
+- [ ] It is ephemeral and deleted when the associated instance is terminated.
+- [ ] It is a shared file system designed for high performance.
+- [x] It is automatically replicated within an availability domain for high durability.
+
+> Correct. OCI Block Volumes are automatically replicated within an availability domain for high durability, ensuring data redundancy and protection against hardware failures.
+
+
+**Which is a key difference between Security Lists and Network Security Groups in Oracle Cloud Infrastructure?**
+- [ ] Security Lists are stateful, while Network Security Groups are stateless.
+- [ ] Security Lists support only ingress rules, while security Groups support both ingress and egress rules.
+- [ ] Security Lists encrypt data in transit, while Network Security Groups do not.
+- [x] Security Lists apply to subnets, while Network Security groups apply to individual instances VNICS.
+
+> Correct. The Key difference between Security Lists and Network Security Groups In Oracle Cloud Infrastructure is that Security Lists apply to subnets, while Network Security Groups apply to individual instance VNICs. This allows for more granular control of traffic in and out of instances.
+
+**Which is the key benefit of using Oracle Cloud Infrastructure Autonomous Database?**
+- [ ] Support for all database technologies
+- [ ] Unlimited storage capacity
+- [x] Reduced database management overhead.
+- [ ] Free migration from any cloud provider.
+
+> Correct. A key benefit of using Oracle Cloud Infrastructure Autonomous Database is the reduced database management overhead. Its self-driving capabilities automate tasks such as provisioning, patching, running and backup, which helps minimize manual database administration and maintenance, allowing you to foes on more strategic initiatives.
+
+**Which workload type is NOT optimized for Oracle Autonomous Database on Shared Exadata Infrastructure?**
+- [ ] Data warehousing
+- [ ] Transaction Processing
+- [ ] Mixed workfloads
+- [x] High-performance computing
+
+**What is the primary goal of distributing resources across multiple availability domains in Oracle Cloud Infrastructure?**
+- [x] To improve fault tolerance and high availability.
+- [ ] To increase storage capacity for a region
+- [ ] To segregate resources based on project or department
+- [ ] To reduce latency for users in different geographic locations.
+
+> Correct. The primary goal of distributing resources across multiple availability domains in Oracle Cloud Infrastructure is to improve fault tolerance and high availability. By spreading resources isolated, fault-tolerant centers within a region, applications can continue operating even if one availability domain experiences an outage.
+
+**What is the primary function of a Route Table in Oracle Cloud Infrastructure Network Service?**
+- [ ] To connect a VCN to the public internet
+- [x] To define rules to route traffic from subnets to destinations outside the VCN
+- [ ] To define rules controlling traffic flow between subnets.
+- [ ] To provide a private connection between a VCN and an on-premises network.
+
+> A Route table is a component in Oracle Cloud Infrastructure Networking Service that defines rules for packet forwarding to destinations outside the Virtual Cloud Network (VCN). Route tables have rules to route traffic from subnets to destinations outside the VCN by way of gateways or specially configured instances.
+
+
+**In the Oracle Cloud Infrastructure Object Storage service, which storage tier is designed for rarely or seldom accessed data that can be restored within hours?**
+
+- [ ] One Zone-Infrequent Access
+- [ ] Intelligent Tiering
+- [x] Archive Storage
+- [ ] Standard Storage
+
+> Archive Storage is a storage tier in the Oracle Cloud Infrastructure Object Storage service designed for rarely or seldom accessed data that can be restored within hours. It offers the lowest cost per stored gigabyte and is suitable for long-term storage of data that is not needed for immediate access, such as backups or historical data.
+
+**Which data transfer types is generally free of charge in Oracle Cloud Infrastructure?**
+- [ ] Egress data transfer to AWS or GCP
+- [ ] Egress data transfer to the Internet
+- [ ] Egress data transfer to a different OCI region
+- [x] Ingress data transfer.
+
+> Ingress data transfers refers to the data transferred into Oracle Cloud Infrastructure from other sources. Generally, ingress data transfer is free of charge, while egress data transfer can have associated costs depending on the destination (to a different cloud provider like AWS or GCP, to a different OCI region, or to the internet)
+
+**What is the main benefit of using Oracle Cloud Infrastructure  Security Zones for resource management?**
+- [x] Enforcing best practice security configurations.
+- [ ] Managing IAM policies
+- [ ] Load balancing across regions
+- [ ] Reducing network latency.
+
+> Oracle Cloud Infrastructure Security Zones help to enforce best practice security configurations for your resources. By using Security Zones, you can ensure that resources are crated and managed with security best practices, minimizing potential security risks and improving the overall security posture for your infrastructure.
+
+**Which type of Oracle Cloud Infrastructure networking gateway allows access to Oracle services within the same region without traversing the public internet?**
+- [ ] NAT Gateway
+- [x] Service Gateway
+- [ ] Dynamic Routing Gateway
+- [ ] Internet Gateway
+
+> A Service Gateway in Oracle Cloud Infrastructure networking service enables access to Oracle services within the same region without the traffic going through the public Internet. This provides a more secure and reliable connection for accessing Oracle services like Object Storage, Autonomous Database, and others.
+
+**In the context of Oracle Cloud Infrastructure Autonomous Database, what does the self-securing feature provide?**
+- [ ] Automatic database tuning and optimization.
+- [ ] Automatic scaling of resources based on workload.
+- [x] Automatic application of security patches and protecting from threats.
+- [ ] Automatic database recovery in case of failures.
+
+> The self-securing feature of Oracle Cloud Infrastructure Autonomous Database provides automatic application of security patches and protection from threats. It ensures that the database is always up-to-date with the latest security updates, helping to safeguard your data and maintain a strong security posture.
+
+**Which type of scaling is achieved by adding or removing instances within an instance pool in Oracle Cloud Infrastructure Compute?**
+- [ ] Proportional scaling
+- [ ] Vertical scaling
+- [ ] Diagonal scaling
+- [x] Horizontal scaling
+
+> Horizontal scaling is achieved by adding or removing instances within an instance pool in Oracle Cloud Infrastructure Compute. This type of scaling helps manage workloads and maintain optimal resource utilization by distributing traffic across multiple instances.
+
+**What is the main advantage of vertical scaling in the Oracle Cloud Infrastructure Computer service?**
+- [ ] Improved load balancing
+- [ ] Increased fault tolerance.
+- [x] Enhanced performance with more OCPUs and memory.
+- [ ] Reduced network latency.
+
+> Vertical scaling in the Oracle Cloud Infrastructure Compute service refers to the process of increasing the performance of an instance by adding more OCPUs and memory. This allows for improved processing capabilities and resource allocation, resulting in enhanced performance for the compute instance.
+
+**In the Oracle Cloud Infrastructure Computer service, which feature enable users to migrate running instances between different physical servers?**
+
+- [ ] Fault Domain Balancing
+- [ ] Instance Evacuation
+- [ ] Instance Migration
+- [x] Live Migration
+
+> Live Migration is a feature in the Oracle Cloud Infrastructure Compute service that enables users to migrate running instances between different fault domains without any downtime. It allows users to perform maintenance or balance workloads across fault domains while maintaining the availability and performance of their applications.
+
+**Which of the following statements about compartments in Oracle Cloud Infrastructure is NOT true?**
+- [ ] IAM Policies can be written to grant access to resources in specific compartments.
+- [ ] Compartments are a global resource
+- [ ] Compartments can be nested to create a hierarchy.
+- [x] Compartments provide a way to store and manage encryption keys and secrets.
+
+> Compartments in Oracle Cloud are a global resource; they can be nested to create a hierarchy; and IAM policies can be written to grant access to resources in specific compartments. However, storing and managing encryption keys and secrets is a function of the Oracle Cloud Infrastructure Vault service, not compartements.
+
+**Which Oracle Cloud Infrastructure Autonomous Database workload type is designed for real-time analytics and reporting?**
+- [ ] Autonomous Transaction Processing (ATP)
+- [x] Autonomous Data Warehouse (ADW)
+- [ ] Autonomous JSON Database (AJD)
+- [ ] Autonomous Data Guard
+
+> Autonomous Data Warehouse (ADW) is the workload type in Oracle Cloud Infrastructure Autonomous Database designed for real-time analytics and reporting. ADW provides a fully managed, high-performance, and elastic service that simplifies data warehouse management.
+
+**Which protocol is used by the Oracle Cloud Infrastructure File Storage service for file access?**
+- [x] NFS (Network File System)
+- [ ] iSCSI (Internet Small Computer Systems Interface)
+- [ ] FTP (File Transfer Protocol)
+- [ ] SMS (Network File System)
+
+> The Oracle Cloud Infrastructure File Storage service uses the Network File System (NFS) protocol for file access. NFS allows clients to access files over a network in a manner that appears as though they are part of the local file system.
+
+**Which Oracle Cloud Infrastructure service continuously monitors your cloud resources and configurations to detect, assess, and remediate security risks?**
+- [ ] Vault Service
+- [x] Cloud Guard
+- [ ] Security Advisor
+- [ ] Security Zones
+
+> Oracle Cloud Infrastructure Cloud Guard continuously monitors your cloud resources and configurations and detects, assess, and remediate security risks. Cloud Guard helps maintain a strong security posture by identifying and addressing potential security issues before they become critical.
+
+**In the Oracle Cloud Infrastructure Block Volume service, which features enables you to increase the size of a block volumen without any downtime?**
+- [ ] Dynamic Volume Resizing
+- [ ] Volume Elasticity
+- [x] Online Resizing
+- [ ] Volume Bursting
+
+> In the Oracle Cloud Infrastructure Block Volume service, Online Resizing enables you to increase the size of a block column without any downtime. This feature allows you to scale storage capacity on the fly to accommodate growing data needs or application requirements, ensuring continuous availability and performance.
+
+**In Oracle Cloud Infrastructure, which component of an IAM policy statement defines the user or group the policy applies to?**
+- [ ] Resource
+- [ ] Action
+- [x] Principal
+- [ ] Effect
+
+> In Oracle Cloud Infrastructure, the “Principal” component of an IAM policy statement defines the user or group the policy applies to. It specifies the groups that the policy statement affects, granting them access to resources and actions defined in the policy statement.
+
+**What is the term used to describe the combination of instance’s shape, base image, and metadata in the Oracle Cloud Infrastructure Compute service?**
+- [ ] Instance template
+- [ ] Instance Profile
+- [ ] Instance Specification
+- [x] Instance Configuration
+
+> In the Oracle Cloud Infrastructure Compute service, an instance configuration is a predefined configuration that includes the instance’s shape, base image, and metadata. It allows users to quickly create new instances with the same configuration streamlining the deployment process.
+
+**In Oracle Cloud Infrastructure, which component is responsible for controlling traffic between subnets within a virtual cloud network (VCN)?**
+- [x] Security Lists
+- [ ] Network Security Groups
+- [ ] Internet Gateways
+- [ ] Route Tables.
+
+> In Oracle cloud Infrastructure, Security Lists are responsible for controlling traffic between subnets within a virtual cloud network (VCN). They define ingress and egress rules to determine the allowed traffic at the subnet level.
+
+**What type of storage is associated with instances in the Oracle Cloud Infrastructure Compute service?**
+- [ ] Infrequent Access Storage
+- [x] Block Storage
+- [ ] Object Storage
+- [ ] Archive Storage
+
+> Block storage is the type of storage associated with instances in the Oracle Cloud Infrastructure Compute service. It provides low-latency, high performance storage volumes that can be attached to instances to store data and applications.
+
+**Which type of load balancing policy is supported by Oracle Cloud Infrastructure Load Balancer?**
+- [ ] Most connections
+- [ ] Name Hash
+- [ ] Random
+- [x] Weighted Round Robin
+
+> Oracle Cloud Infrastructure Load Balancer supports three types of load balancing algorithms: Round Robin, Least Connections and IP Hash. The Round Robin algorithm distributes incoming traffic evenly across instances. This algorithm helps ensure efficient distribution of network traffic and maintain the availability and performance of applications.
+
+**Which tool in Oracle Cloud Infrastructure allows you to visualize and analyze your cloud usage and spending patterns over time?**
+- [ ] Budgets
+- [ ] Usage Reports
+- [ ] Quotas
+- [x] Cost Analysis
+
+> The Cost Analysis tool in Oracle Cloud Infrastructure enables users to visualize and analyze their cloud usage and spending patterns over time. This helps users better understand their consumption of resources and services and make informed decisions about cost optimization.
+
+**Which attribute can be customized when creating an Oracle Cloud Infrastructure Compute flexible shape instance?**
+- [x] Number of OCPUs and amount of memory
+- [ ] Operating sytem and disk type
+- [ ] Instance shape and instance size.
+- [ ] Number of physical NICs and number of virtual NICs.
+
+> When creating an Oracle Cloud Infrastructure Compute flexible shape instance, users can customize the number of OCUPs and the amount of memory according to their needs. Flexible shapes provide more control over resource allocation and help users optimize costs and performance.
+
+**What are the two types of workloads supported by Oracle Cloud Infrastructure Autonomous Database?**
+- [ ] Data Streaming and Data Analysis
+- [ ] Data Integration and Data Migration
+- [x] Transaction Processing and Data Warehousing
+- [ ] Data Storage and Data Retrieval
+
+>  Autonomous Database supports different workload types, including: Data warehouse (ADW), Transaction Processing (ATP) (& mixed workloads), JSON Database, and APEX Service. Transaction Processing is optimized for high-performance online transaction processing (OLTP) workloads, while Data Warehousing is designed for high-performance analytical processing (OLAP) workloads.
+
+**What is the primary purpose of the MySQL Database Service HeatWave option in OCI?**
+
+- [x] To provide a distributed in-memory query accelerator
+- [ ] To ensure high availability and fault tolerance
+- [ ] To offer a Serverless MySQL deployment
+- [ ] To enable seamless database migration from on-premises to OCI
+> Oracle MySQL HeatWave is the only MySQL cloud service with a built-in, high performance, in memory query accelerator - HeatWave. It increases MySQL performance by orders of magnitude for analytics and workloads without any changes to current applications.
+
+**Which of the following features is NOT provided by Oracle Cloud Infrastructure Security Zones?**
+
+- [ ] Automatically enforcing security best practices
+- [ ] Restricting resource creation based on predefined security policies.
+- [ ] Continuous monitoring of security posture
+- [x] Storing and managing encryption keys and secrets.
+
+> OCI Security Zones provide features like automatically enforcing security best practices, restricting resource creation based on predefined security policies, and continuously monitoring security posture. However, storing and managing encryption keys and secrets is a function of OCI Vault, not Security Zones.
+
+**Which Oracle Cloud Infrastructure service is responsible for securely storing and managing encryption keys, and secrets?**
+
+- [ ] Cloud Guard
+- [ ] Security Zones
+- [ ] Security Advisor
+- [x] Vault
+
+> OCI Vault Service is responsible for securely storing and managing encryption keys, secrets, and certificates. Vault Service helps protect sensitive data by providing a secure, centralized repository for managing and controlling access to these critical security assets.
+
+**Which factors does NOT impact the cost of running a virtual machine instance in Oracle Cloud Infrastructure?**
+- [ ] The number of virtual machines running
+- [ ] The size of the VM instance
+- [ ] The operating system used by the VM instance
+- [x] The region used by the VM instance.
+
+> The costs of running a virtual machine (VM) instance in OCI can be impacted by multiple factors, including the number of virtual machines running, the size of the VM instance (e.g. number of OCPUs, memory), and the operating system used by the VM instance. Understanding these factors can help customers better manage their costs.
+
+**Which of the following best describes the relationship between Oracle Cloud Infrastructure Regions and Availability Domains?**
+
+- [ ] A region is part of an Availability Domain
+- [ ] Availability Domains exist independently of regions
+- [x] An Availability Domain is a part of a region
+- [ ] Regions and Availability Domains are the same thing
+
+> In OCI, An Availability Domain is a part of a region. A region is a group of geographically close data centers, while an availability domain is an isolated, fault-tolerant data center within a region.
+
+**Which component of Oracle Cloud Infrastructure Network Service provides a private connection between a VCN and an on-premises network?**
+
+- [ ] Internet Gateway
+- [ ] Network Address Translation (NAT) Gateway
+- [x] Dynamic Routing Gateway (DRG)
+- [ ] Service Gateway
+
+> A dynamic Routing Gateway (DRG) is a component of OCI network Service that provides a private connection between a Virtual Cloud Network (VCN) and an on-premises network. It enables users to establish a secure and reliable connection between their cloud and on-premises resources, facilitating hybrid cloud deployments.
+
+**What is the primary purpose of a Network Security Group is to(NSG) in Oracle Cloud Infrastructure Network Service?**
+
+- [ ] To control routing between VCNs.
+- [ ] To provide a private connection between a VCN and an on-premises network.
+- [x] To control traffic flow between specific resources within a VCN.
+- [ ] To connect a VCN to the public internet.
+
+> A network security Group (NSG) in OCI Network is designed to control traffic flow between specific resources within a VCN. It provides a more granular flow level of control compared to security Lists, enabling users to apply security rules to specific resources, such as instances or load balancers.
+
+**What is the term used to describe the combination of an instance’s shape, base image, and metadata in Oracle Cloud Infrastructure Compute service?
+
+- [x] Instance Configuration
+- [ ] Instance template
+- [ ] Instance Profile
+- [ ] Instance Specification.
+
+> In OCI computer service, an Instance configuration is a pre-defined configuration that includes the instance’s shape, base image and metadata. It allows users to quickly create new instances with the same configuration, streamlining the deployment process.
+
+**What is the primary purpose of Oracle Cloud Infrastructure Functions?**
+
+- [ ] To deploy and manage virtual machines.
+- [x] To execute code in response to events or HTTP requests.
+- [ ] To store and manage files
+- [ ] To provide a managed database service.
+
+> The primary purpose of Oracle Cloud Infrastructure Functions list is to execute code in response to events or HTTP requests. It is a Serverless computing platform that allows developers to build, deploy, and run applications without the need to manage the underlying infrastructure.
+
+**What feature of Oracle Cloud Infrastructure Object Storage Service enables users to automatically move objects between storage tiers based on predefined rules?**
+- [x] Object Lifecycle Management
+- [ ] Object Versioning
+- [ ] Cross-Region Replication
+- [ ] Pre-Authenticated Requests
+
+> Object Lifecycle Management enables users to manage their Object and Archive storage data by taking automated actions based on rules that they define.
+
+**Which performance level is NOT available in Oracle Cloud Infrastructure Block Volume service?**
+
+- [ ] High Performance
+- [x] Low Performance
+- [ ] Balanced
+- [ ] Ultra High Performance
+
+> Block Volume Performance Levels are Lower Cost, Balanced, Higher Performance and Ultra High Performance.
+
+# Oracle Cloud Infrastructure Governance and Administration
+
+**Which is NOT a factor that influences pricing in Oracle Cloud Infrastructure?**
+
+- [ ] Services consumed
+- [ ] Type of resource
+- [x] Choice of OCI Region
+- [ ] Data Transfer
+
+**Which type of traffic is charged under data transfer costs in Oracle Cloud Infrastructure?**
+
+- [ ] Ingress and egress are charged between instances in different availability domains.
+- [x] Egress to internet is charged.
+- [ ] Ingress is charged between two availability domains.
+- [ ] Egress and ingress are both charged to and from the internet.
+
+**In Oracle Cloud Infrastructure, what can you setup to receive notifications when budget thresholds are reached?**
+- [ ] Pager alerts
+- [x] Email alerts
+- [ ] Push notifications
+- [ ] SMS notifications
+
+**Which is NOT a supported Oracle Cloud Infrastructure pricing model?**
+- [ ] Pay as You Go
+- [ ] Oracle Universal Credits
+- [ ] Bring Your Own License (BYOL)
+- [x] Sovereign subscriptions
+
+**In Oracle Cloud Infrastructure, what is the key difference between service limits and compartment quotas?**
+
+- [ ] Both apply only to specific compartments and can be modified only by the user.
+- [ ] Service limits are user-defined for compartments, while compartment quotas are set by Oracle for a tenancy or region.
+- [x] Service limits are set by Oracle for a tenancy or region, while compartment quotas are user-defined for specific compartments.
+- [ ] Both are set and can be modified only by Oracle.
+
+# Oracle Cloud Infrastructure Security
+
+**What is the primary purpose of the Oracle Cloud Infrastructure Vault service?**
+
+- [ ] to provide security recommendations and insights for your cloud infrastructure.
+- [x] To store and manage encryption keys and secrets.
+- [ ] To enforce security best practices in designated compartments.
+- [ ] To detect, assess, and remediate security risks in your cloud infrastructure.
+
+**Which is NOT a component of Oracle Cloud Guard?**
+
+- [ ] Problems
+- [ ] Detectors
+- [x] Targets
+- [ ] Responders
+
+**In the OCI shared security responsibility model, who is responsible for securing the underlying cloud infrastructure?
+
+- [ ] Government agencies
+- [ ] Third-party vendors
+- [ ] The customer
+- [x] Oracle
+
+
+**What is the main advantage of using OCI Security Zones when deploying resources in your cloud environment?**
+- [ ] Automatic resource scaling
+- [ ] Streamlining application deployment
+- [x] Ensuring adherence to security best practices and policies
+- [ ] Load balancing across multiple instances.
+
+**Which of the following is NOT a component of the Oracle Cloud Infrastructure Vault service?**
+
+- [x] Database backup
+- [ ] Secret
+- [ ] Master encryption key
+- [ ] Vault
+
+
+# Oracle Cloud Infrastructure Database
+
+**Which is NOT a supported workload type for Oracle Autonomous Database?**
+
+- [ ] Transaction Processing
+- [ ] Data Warehouse
+- [ ] JSON
+- [x] MYSQL
+
+**How does MySQL HeatWave enable accelerated query performance**
+
+- [ ] By partitioning the data into smaller subsets.
+- [ ] By replacing data across multiple databases.
+- [x] By using in-memory data storage.
+- [ ] By compressing the data for faster retrieval.
+
+**In the context of Oracle Autonomous Database, what does the self-reparing feature ensure?**
+
+- [ ] Automatic scaling of resources based on workload.
+- [ ] Automatic database tuning
+- [x] Automatic database recovery in case of failures
+- [ ] Automatic application of security patches.
+
+**Which feature of Oracle Autonomous Database enables automatic database optimizations without manual intervention?**
+- [ ] Autoscaling
+- [ ] Self-securing
+- [ ] Self-reparing
+- [x] Self-driving
+
+**Which type of processing does MySQL HeatWave primary enable MySQL to handle efficiently? **
+
+- [x] Online Analytical Processing (OLAP)
+- [ ] Data warehouse processing
+- [ ] Online Transaction Processing (OLTP)
+- [ ] Data lake processing
+
+# Oracle Cloud Infrastructure Storage
+
+**In the Oracle Cloud Infrastructure Object Storage Service, what is the primary purpose of pre-authenticated request URLS?**
+
+- [ ] To enable public read access of specific object
+- [ ] To track and monitor object access and usage
+- [ ] To enable automatic transition of object between storage tiers.
+- [x] To provide temporary and secure access to a specific object.
+
+**You have an extremely high performance database workload that requires at least 90 IOPS/GB and 90,000 IOPS per volume. Which OCI Block Volume performance level can be used to meet this requirement?**
+
+- [x] Ultra Hight Performance
+- [ ] Lower Cost
+- [ ] Higher Performance
+- [ ] Balanced
+
+**You have created an Object Storage bucket of Archive tier. Which statement is NOT valid for the Archive Storage tier?**
+
+- [ ] The default time available to download an object after restoration is 24 hours.
+- [x] The Archive storage bucket can be upgrade to Standard Storage.
+- [ ] From the time a restore request is made, it takes at most an hour to read the data.
+- [ ] The minimum duration to store objects is 90 days.
+
+**You want to store the backup of a database in cloud storage for an extended period at the lowest storage cost. Which object storage tier would you use for storing these backup files?**
+
+- [ ] Premium
+- [ ] Standard
+- [x] Archive
+- [ ] Infrequent Access
+
+**What feature of the Oracle Cloud Infrastructure Block Volume service ensures data durability and protection against hardware failures?**
+
+- [ ] Compression
+- [ ] Deduplication
+- [ ] Encryption
+- [x] Replication
+
+
+
+# Oracle Cloud Infrastructure Compute
+
+**What is the primary purpose of Oracle Cloud Infrastructure Functions?**
+
+- [x] To execute code in response to events or HTTP Requests
+- [ ] To store and manage files
+- [ ] To deploy and manage virtual machines
+- [ ] To provide a managed database service.
+
+**Which statement about the working of autoscaling in an instance pool is true?**
+
+- [x] It automatically provisions and removes instances in an instance pool.
+- [ ] It automatically changes the shape of the compute instance to increase the number of OCPU count and memory.
+- [ ] It can perform only schedule-based autoscaling.
+- [ ] It can perform only metric-based autoscaling.
+
+**Which two parameters can be customized when creating a flexible shape compute instance?**
+- [ ] Number of virtual NICs
+- [x] Amount of memory
+- [x] Number of OCPUs
+- [ ] Number of physical NICs
+
+**Which processor type is NOT available for the OCI Compute service?**
+- [ ] AMD
+- [ ] Ampere
+- [x] Snapdragon
+- [ ] Intel
+
+**Which type of storage is associated with instances in the OCI Compute service**
+
+- [ ] File Storage
+- [ ] Archive Storage
+- [ ] Object Storage
+- [x] Block Storage

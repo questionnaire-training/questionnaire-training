@@ -8,7 +8,7 @@
       },
       {
         "answer": "Layer 4 (transport)",
-        "correct": true
+        "correct": false
       },
       {
         "answer": "Layer 5 (session)",
@@ -16,7 +16,7 @@
       },
       {
         "answer": "Layer 7 (application)",
-        "correct": false
+        "correct": true
       }
     ]
   },

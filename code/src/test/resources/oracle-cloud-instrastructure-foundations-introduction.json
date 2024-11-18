@@ -1,0 +1,107 @@
+[
+  {
+    "title": "You have subscribed to an OCI region that has one availability domain. You want to deploy a highly available application with two servers and a 2-node database. How would you place the components to maintain the high availability of the application?",
+    "answers": [
+      {
+        "answer": "High availability is not possible as there is only one availability domain in the region.",
+        "correct": false
+      },
+      {
+        "answer": "Place one server and a DB node in one fault domain, and the second server and DB node in another fault domain.",
+        "correct": true
+      },
+      {
+        "answer": "Place the servers in one fault domain and the database nodes in another fault domain.",
+        "correct": false
+      },
+      {
+        "answer": "Place all the components in the same fault domain.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Which statement about regions and availability domains is true?",
+    "answers": [
+      {
+        "answer": "Fault domains provide protection against failures across regions",
+        "correct": false
+      },
+      {
+        "answer": "All OCI regions have a single availability domain",
+        "correct": false
+      },
+      {
+        "answer": "An OCI region has one or more availability domains",
+        "correct": true
+      },
+      {
+        "answer": "All OCI regions have three availability domains",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Which statement about OCI is NOT true?",
+    "answers": [
+      {
+        "answer": "Availability domains do not share infrastructure such as power, cooling or network within a region",
+        "correct": false
+      },
+      {
+        "answer": "A single fault domain can be associated with multiple availability domains within a region",
+        "correct": true
+      },
+      {
+        "answer": "An availability domain is one or more data centers located within a region",
+        "correct": false
+      },
+      {
+        "answer": "An OCI region is a localized geographic area",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Which Oracle Cloud Infrastructure service is NOT intended for a multicloud solution?",
+    "answers": [
+      {
+        "answer": "Oracle Database Service for Azure",
+        "correct": false
+      },
+      {
+        "answer": "Oracle Interconnect for Azure",
+        "correct": false
+      },
+      {
+        "answer": "Oracle MySQL Heatwave for AWS",
+        "correct": false
+      },
+      {
+        "answer": "Oracle Roving Edge Infrastructure",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "title": "Which capability can be used to protect against failures within an OCI availability domain?",
+    "answers": [
+      {
+        "answer": "Load Balancer",
+        "correct": false
+      },
+      {
+        "answer": "Fault Domain",
+        "correct": true
+      },
+      {
+        "answer": "Compartments",
+        "correct": false
+      },
+      {
+        "answer": "Regions",
+        "correct": false
+      }
+    ]
+  }
+]
